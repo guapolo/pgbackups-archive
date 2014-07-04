@@ -39,6 +39,7 @@ This option is generally recommended over Option 1, particularly if your applica
     heroku config:add PGBACKUPS_AWS_ACCESS_KEY_ID="XXX"
     heroku config:add PGBACKUPS_AWS_SECRET_ACCESS_KEY="YYY"
     heroku config:add PGBACKUPS_BUCKET="myapp-backups"
+    heroku config:add PGBACKUPS_FOLDER="directory_name"
     heroku config:add PGBACKUPS_REGION="us-west-2"
     heroku config:add PGBACKUPS_DATABASE_URL="your main app's DATABASE_URL or other follower URL here"
 
